@@ -56,7 +56,7 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 - **`Stage_2/`**: Placeholder for files related to Data Warehouse and BI (ETL scripts, Power BI dashboards).
 
 ## Folder Structure
-
+```
 ├── Database
 │   ├── Create_Database_Cataschevastica.sql
 │   ├── Data_Population.sql
@@ -86,6 +86,7 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 │   └── PowerBI_Reports
 │
 └── README.md
+```
 
 ## Setup Instructions
 
