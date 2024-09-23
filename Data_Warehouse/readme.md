@@ -39,14 +39,14 @@ This stage involves building a Data Warehouse (DW) for analytical processing, us
    - The **Power BI** dashboard is built to visualize the data from the Data Warehouse for business insights.
 
 ### Files:
-- **SQL Scripts**:
+- **SQL_Scripts**:
   - `Create_Data_Warehouse.sql`: Creates the DW.
   - `Create_Staging.sql`: Creates the staging area.
   - `DimCustomer_Scd_Type_2.sql`: Implements SCD Type 2 for Customer dimension.
   - Scripts implementing **incremental loading** for fact tables and **SCD Type 2** for dimensions tables.
   
-- **Azure Data Lake**:
+- **Databricks**:
   - Files in **Parquet format** for efficient querying and storage.
   
-- **Power BI**:
+- **PowerBI**:
   - Interactive dashboard for visualizing DW data and deriving actionable insights.
