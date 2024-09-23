@@ -49,4 +49,4 @@ This stage involves building a Data Warehouse (DW) for analytical processing, us
   - Files in **Parquet format** for efficient querying and storage.
   
 - **PowerBI**:
-  - Interactive dashboard for visualizing DW data and deriving actionable insights.
+  - .pbix file.
