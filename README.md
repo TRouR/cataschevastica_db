@@ -95,17 +95,6 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 - **Databricks/Apache Spark**
 - **Power BI Desktop**
 
-### Stage 2: Data Warehouse & BI Setup
-
-1. **ETL Processes**:
-   - Use the provided ETL scripts (in the `Stage_2/ETL_Scripts` folder) to extract, transform, and load data into the data warehouse.
-
-2. **Data Lake**:
-   - The Spark scripts (to be uploaded in `Stage_2/Data_Lake_Scripts`) will be used for managing and processing data in the Databricks Delta Lake.
-
-3. **Power BI Reports**:
-   - Open the `PowerBI_Reports/` folder to access `.pbix` files that generate visualizations directly from the Data Warehouse.
-
 ## Usage
 
 - **Placing Orders**: Insert a new order via the command script, and track its status across production and delivery stages.
