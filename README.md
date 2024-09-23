@@ -1,4 +1,5 @@
 # Cataschevastica OLTP Database, Data Warehouse and Analytics
+![Webp net-resizeimage](https://github.com/user-attachments/assets/e3533cff-33cf-44b9-ad35-f3e2b8f6eb74)
 
 ## Overview
 
