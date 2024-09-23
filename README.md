@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project consists of two major stages developed for a fictitious manufacturing company, **Cataschevastica**, focusing on their **Online Transaction Processing (OLTP)** system and the subsequent **Data Warehouse (DW)** implementation. The project tracks the company's end-to-end manufacturing process, ensuring efficiency, customer satisfaction, and service quality. Additionally, a **Business Intelligence (BI)** pipeline is designed to support advanced analytical queries and visualizations.
+This project consists of two major stages developed for a fictitious manufacturing company, **Cataschevastica**, focusing on their **Online Transaction Processing (OLTP)** system and the subsequent **Data Warehouse (DW)** implementation. The project tracks the company's end-to-end manufacturing process, ensuring efficiency, customer satisfaction, and service quality. Additionally, a **Business Intelligence (BI)** dashboard is designed, supporting advanced analytical visualizations.
 
 ### Stage 1: OLTP Database
 
