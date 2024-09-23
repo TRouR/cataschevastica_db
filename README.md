@@ -13,7 +13,7 @@ The **Cataschevastica OLTP Database** is designed to support the company’s rea
 - Supplier and raw material management
 - Delivery and logistics tracking
 
-### Stage 2: Data Warehouse and BI Pipeline
+### Stage 2: Data Warehouse, Databricks and Power BI
 
 The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enabling insights into production performance, sales, and customer behaviors. The DW is designed in a **constellation schema** and is integrated into **Azure Cloud** using **Blob Storage**. Subsequently, the **Data Lake** is loaded into **Databricks** for processing, using **Apache Spark**. Finally, an interactive dashboard is generated in **Power BI Desktop**, filtering data from the Warehouse.
 
