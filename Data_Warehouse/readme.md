@@ -1,4 +1,4 @@
-## Stage 2: Data Warehouse and BI Pipeline
+## Stage 2: Data Warehouse, Databricks and PowerBI Implementation
 
 This stage involves building a Data Warehouse (DW) for analytical processing, using ETL processes and integrating with Azure Blob storage, Databricks, and Power BI.
 
