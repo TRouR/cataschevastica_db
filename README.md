@@ -90,23 +90,10 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 
 ### Prerequisites
 
-- **MS SQL Server** (for running OLTP database scripts)
-- **Python / Spark** (for ETL and Data Lake operations)
-- **Power BI Desktop** (for viewing and creating reports)
-
-### Stage 1: OLTP Database Setup
-
-1. **Create the OLTP Database**:
-   - Run the `Create_Database_Cataschevastica.sql` script located in the `Database/` folder.
-
-2. **Populate the Database**:
-   - Execute the `Data_Population.sql` script to insert sample data into the tables.
-
-3. **Run Command Statements**:
-   - Use the `Command_Statements_Cataschevastica.sql` to simulate operations such as placing orders, completing production, and marking deliveries.
-
-4. **Extract Information**:
-   - Run the queries in the `Queries_Cataschevastica.sql` file to generate reports, such as order status, production, and delivery insights.
+- **MS SQL Server**
+- **Azure Blob Storage**
+- **Databricks/Apache Spark**
+- **Power BI Desktop**
 
 ### Stage 2: Data Warehouse & BI Setup
 
