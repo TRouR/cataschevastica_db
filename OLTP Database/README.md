@@ -1,1 +1,17 @@
+## Stage 1: OLTP Database
 
+The OLTP database is used to handle real-time transactional processes in the company, focusing on order intake, product manufacturing, and logistics.
+
+### Key Features:
+- **Normalized to 3NF**: The database ensures data integrity and eliminates redundancy.
+- **Entities**:
+  - Customer, Orders, Product, Raw Material, Supplier, Delivery, and more.
+- **Queries**:
+  - Sample SQL queries for retrieving data such as orders, production reports, and delivery status.
+
+### Files:
+- **SQL Scripts**:
+  - `Create_Database_Cataschevastica.sql`: Script to create the OLTP database.
+  - `Data_Population.sql`: Populates the OLTP database with sample data.
+  - `Command_Statements_Cataschevastica.sql`: Statements to simulate operations.
+  - `Queries_Cataschevastica.sql`: Predefined queries for generating reports.
