@@ -15,7 +15,7 @@ The **Cataschevastica OLTP Database** is designed to support the company’s rea
 
 ### Stage 2: Data Warehouse and BI Pipeline
 
-The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enabling insights into production performance, sales, and customer behaviors. The DW is designed in a **star schema** or **constellation schema** and is integrated with **Databricks Delta Lake** for processing large datasets, with reports and dashboards generated in **Power BI**.
+The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enabling insights into production performance, sales, and customer behaviors. The DW is designed in a **constellation schema** and is integrated into **Azure Cloud** using **Blob Storage**. Subsequently, the **Data Lake** is loaded into **Databricks** for processing, using **Apache Spark**. Finally, an interactive dashboard is generated in **Power BI Desktop**, filtering data from the Warehouse.
 
 ## Features
 
