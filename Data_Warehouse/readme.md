@@ -14,8 +14,8 @@ This stage involves building a Data Warehouse (DW) for analytical processing, us
    - SQL scripts handle data extraction from the OLTP database, transformation in the staging area, and loading into the Data Warehouse.
 
 4. **Data Lake**:
-   - Data is uploaded to **Azure Blob Storage** in **Parquet format** for further processing and analysis.
-   - **Sanitized Azure Blob Storage JSON**:
+   - Data is uploaded to **Azure Blob Storage** for further processing and analysis.
+   - **Azure Blob Storage JSON**:
      ```json
      {
          "sku": { "name": "Standard_LRS", "tier": "Standard" },
@@ -38,15 +38,15 @@ This stage involves building a Data Warehouse (DW) for analytical processing, us
 6. **Power BI Dashboard**:
    - The **Power BI** dashboard is built to visualize the data from the Data Warehouse for business insights.
 
-### Project Files:
+### Files:
 - **SQL Scripts**:
   - `Create_Data_Warehouse.sql`: Creates the DW.
-  - `Create_Staging.sql`: Creates the staging database.
+  - `Create_Staging.sql`: Creates the staging area.
   - `DimCustomer_Scd_Type_2.sql`: Implements SCD Type 2 for Customer dimension.
-  - Other scripts for dimensions and fact loading.
+  - Scripts implementing **incremental loading** for fact tables and **SCD Type 2** for dimensions tables.
   
 - **Azure Data Lake**:
   - Files in **Parquet format** for efficient querying and storage.
   
 - **Power BI**:
-  - Interactive dashboard for visualizing DW data.
+  - Interactive dashboard for visualizing DW data and deriving actionable insights.
