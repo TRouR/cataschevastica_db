@@ -24,7 +24,7 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 1. **Database Design**: ERD and Relational Schema for the OLTP system.
 2. **Database Implementation**: SQL scripts to create the OLTP database and populate it with sample data.
 3. **Data Queries**: Predefined queries to extract useful insights, such as order reports, production status, and delivery tracking.
-4. **ETL Processes**: Extract, Transform, Load scripts to automate data warehouse creation and uppdate.
+4. **ETL Processes**: Extract, Transform, Load scripts to automate data warehouse creation and update.
 5. **Data Lake Integration**: Data from the Data Warehouse is loaded into Azure Blob Storage, creating a cloud-based Data Lake for further processing.
 6. **Cloud Processing with Databricks**: Data in the Data Lake is loaded into Databricks with Apache Spark for further transformation and analysis workflows.
 7. **Business Intelligence**: Power BI dashboard for analyzing the company's key compoments, such as production and sales.
