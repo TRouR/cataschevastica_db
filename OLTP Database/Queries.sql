@@ -21,8 +21,8 @@ WHERE Status = 'In Delivery'
 
 SELECT o.Order_ID,
        o.OrderDate,
-	   o.Status AS OrderStatus,
-	   c.Customer_ID,
+       o.Status AS OrderStatus,
+       c.Customer_ID,
        c.FName AS FirstName,
        c.LName AS LastName
 FROM Orders o
@@ -45,10 +45,10 @@ GROUP BY  p.Quantity, o.Status, p.Product_ID, p.Name
  ----E .List of orders per production team employee, completed, pending, cancelled
  
  SELECT o.Order_ID,
-       o.Status,
-	   ptm.Member_ID,
-       ptm.FName,
-       ptm.LName
+        o.Status,
+        ptm.Member_ID,
+        ptm.FName,
+        ptm.LName
 FROM ProductionTeamMember ptm
 JOIN ProductionRecord pr ON ptm.Member_ID = pr.Member_ID
 JOIN Orders o ON pr.Order_ID = o.Order_ID
