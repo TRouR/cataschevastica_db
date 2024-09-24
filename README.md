@@ -5,7 +5,7 @@
 
 This project consists of two major stages developed for a fictitious manufacturing company, **Cataschevastica**, focusing on their **Online Transaction Processing (OLTP)** system and the subsequent **Data Warehouse (DW)** implementation. The project tracks the company's end-to-end manufacturing process, ensuring efficiency, customer satisfaction, and service quality. 
 
-### Stage 1: OLTP Database
+### `Stage 1: OLTP Database`
 
 The **Cataschevastica OLTP Database** is designed to support the company’s real-time operational processes, including order intake, product manufacturing, and delivery tracking. It is **normalized to Third Normal Form (3NF)** to ensure data integrity and eliminate redundancy. It supports:
 
@@ -14,7 +14,7 @@ The **Cataschevastica OLTP Database** is designed to support the company’s rea
 - Supplier and raw material management
 - Delivery and logistics tracking
 
-### Stage 2: Data Warehouse, Databricks and Power BI
+### `Stage 2: Data Warehouse, Databricks and Power BI`
 
 The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enabling insights into production performance, sales, and customer behaviors. The DW is designed in a **constellation schema** and is integrated into **Azure Cloud** using **Blob Storage**. Subsequently, the **Data Lake** is loaded into **Databricks** for processing, using **Apache Spark**. Finally, an interactive dashboard is generated in **Power BI Desktop**, filtering data from the Warehouse and supporting advanced analytical visualizations.
 
