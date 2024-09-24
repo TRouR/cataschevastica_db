@@ -48,7 +48,7 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
     - `Raw_Material_Table.csv`: Details of raw materials.
     - `Supplier_Table.csv`: Data on suppliers providing materials
   - **SQL Scripts**: 
-    - `Create_Database_Cataschevastica.sql`: Creates the OLTP database.
+    - `Create_Database.sql`: Creates the OLTP database.
     - `Data_Population.sql`: Populates the OLTP database.
     - `Command_Statements.sql`: Statements to simulate operations, such as placing orders, completing production, and marking deliveries.
     - `Queries.sql`: Queries for generating reports.
