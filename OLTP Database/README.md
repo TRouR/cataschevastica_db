@@ -16,7 +16,7 @@ The OLTP database is used to handle real-time transactional processes in the com
   - `Command_Statements_Cataschevastica.sql`: Statements to simulate operations, such as placing orders, completing production, and marking deliveries.
   - `Queries_Cataschevastica.sql`: Predefined queries for generating reports, such as order status, production, and delivery insights.
 
-#£# Usage
+### Usage
 - **Placing Orders**: Insert a new order via the command script, and track its status across production and delivery stages.
 - **Running Reports**: Use predefined SQL queries to extract insights on customer orders, production, and delivery.
 
