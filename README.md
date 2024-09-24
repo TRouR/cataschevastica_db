@@ -62,7 +62,8 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 ├── OLTP Database
 │   ├── Blueprint
 │       ├── erd_diagram.png
-│       └── relational_schema.png
+│       ├── relational_schema.png
+        └── README.md
 │   ├── Data
 │       ├── Customer_Table.csv
 │       ├── Delivery_Table.csv
@@ -79,8 +80,7 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 │   ├── Data_Population.sql
 │   ├── Command_Statements_Cataschevastica.sql
 │   ├── Queries_Cataschevastica.sql
-│
-│   
+│   └── README.md
 │
 ├── Data_Warehouse
 │   ├── Data
@@ -90,16 +90,23 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 │       ├── dw_dim_product.csv
 │       ├── dw_dim_supplier.csv
 │       ├── dw_fact_production.csv
-│       ├── dw_fact_sales.csv
+│       └── dw_fact_sales.csv
 │   ├── Databricks
-        ├── Import_from_Azure_Blob_Storage.ipynb
-        ├── Import_from_Azure_Blob_Storage.html
-    ├── PowerBI
-        ├── Cataschevastica_PowerBI.pbix
-│   ├── SQL_Scripts
-│       ├── Data_Lake_Scripts
-│       └── PowerBI_Reports
-│
+│       ├── Import_from_Azure_Blob_Storage.ipynb
+│       └── Import_from_Azure_Blob_Storage.html
+│   ├── PowerBI
+│       └── Cataschevastica_PowerBI.pbix       
+│   ├── Create_Data_Warehouse.sql
+│   ├── Create_DimDate.sql
+│   ├── Create_Staging.sql
+│   ├── Load_Data_Warehouse.sql
+│   ├── Create_Views.sql
+│   ├── DimCustomer_Scd_Type_2.sql
+│   ├── DimDelivery_Scd_Type_2.sql
+│   ├── DimProduct_Scd_Type_2.sql
+│   ├── DimSupplier_Scd_Type_2.sql
+│   ├── Fact_Tables_Incremental_Load.sql
+│   └── README.md
 └── README.md
 ```
 
