@@ -50,7 +50,7 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
   - **SQL Scripts**: 
     - `Create_Database.sql`: Creates the OLTP database.
     - `Data_Population.sql`: Populates the OLTP database.
-    - `Command_Statements.sql`: Statements to simulate operations, such as placing orders, completing production, and marking deliveries.
+    - `Command_Statements.sql`: Statements to simulate operations.
     - `Queries.sql`: Queries for generating reports.
 - **`Data_Warehouse/`**: All files for implementating the Data Warehouse, integrating with Azure Blob Storage, processing in Databricks and BI dashboard.
   - **Data Files** (CSV format, under `Data_Warehouse/Data/`): Data stored in the Data Lake.
