@@ -50,3 +50,6 @@ This stage involves building a Data Warehouse (DW) for analytical processing, us
   
 - **PowerBI**:
   - .pbix file.
+ 
+
+- **Data Warehouse**: Perform advanced analysis using the ETL pipelines and visualizations via Power BI.
