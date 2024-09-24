@@ -1,14 +1,9 @@
-DROP DATABASE CATASCHEVASTICA_DW
-
 CREATE DATABASE CATASCHEVASTICA_DW
 
 USE CATASCHEVASTICA_DW
 
 
 -- Create DimCustomer
-
-SELECT * FROM StagingCataschevastica.dbo.Customers;
-
 CREATE TABLE DimCustomer(
 	CustomerKey INT IDENTITY(1,1) PRIMARY KEY, -- Surrogate Key
 	CustomerID INT NOT NULL, -- Natural/Business Key
@@ -25,13 +20,7 @@ CREATE TABLE DimCustomer(
 	RowChangeReason VARCHAR(200)
 );
 
-SELECT * FROM DimCustomer;
-
-
-
-
 -- Create DimProduct
-
 CREATE TABLE DimProduct(
 	ProductKey INT IDENTITY(1,1) PRIMARY KEY, -- Surrogate Key
 	Product_ID INT NOT NULL, -- Natural/Business Key
@@ -54,13 +43,7 @@ CREATE TABLE DimProduct(
 	RowChangeReason VARCHAR(200)
 );
 
-
-SELECT * FROM DimProduct;
-
-
-
 -- Create DimDelivery
-
 CREATE TABLE DimDelivery(
 	DeliveryKey INT IDENTITY(1,1) PRIMARY KEY, -- Surrogate Key
 	DeliveryID INT NULL, -- Natural Key / Business Key
@@ -78,12 +61,7 @@ CREATE TABLE DimDelivery(
 	RowChangeReason VARCHAR(200)
 );
 
-SELECT * FROM DimDelivery;
-
-
-
 -- Create DimSupplier
-
 CREATE TABLE DimSupplier(
 	SupplierKey INT IDENTITY(1,1) PRIMARY KEY, -- Surrogate Key
 	SupplierID INT NOT NULL, -- Natural Key / Business Key
@@ -97,11 +75,6 @@ CREATE TABLE DimSupplier(
 	RowEndDate DATETIME2 DEFAULT('9999-12-31'),
 	RowChangeReason VARCHAR(200)
 );
-
-SELECT * FROM DimSupplier;
-
-
-
 
 -- Create Fact Table
 CREATE TABLE FactSales( 
@@ -119,13 +92,7 @@ CREATE TABLE FactSales(
 	[Version] BIGINT, 
 );
 
-SELECT * FROM FactSales;
-
-
-
 -- Create Fact Table
-
-
 CREATE TABLE FactProduction( 
 --	ProductionKey INT IDENTITY(1,1) PRIMARY KEY,
 	ProductKey INT NOT NULL,
@@ -142,5 +109,3 @@ CREATE TABLE FactProduction(
 	ProductName NVARCHAR(50) NOT NULL,
 	[Version] BIGINT, 
 );
-
-SELECT * FROM FactProduction;
