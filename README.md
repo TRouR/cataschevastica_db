@@ -59,11 +59,10 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 
 ## Folder Structure
 ```
-├── Database
-│   ├── Create_Database_Cataschevastica.sql
-│   ├── Data_Population.sql
-│   ├── Command_Statements_Cataschevastica.sql
-│   ├── Queries_Cataschevastica.sql
+├── OLTP Database
+│   ├── Blueprint
+│       ├── erd_diagram.png
+│       └── relational_schema.png
 │   ├── Data
 │       ├── Customer_Table.csv
 │       ├── Delivery_Table.csv
@@ -71,21 +70,35 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
 │       ├── Order_Product_Table.csv
 │       ├── Orders_Table.csv
 │       ├── Product_RawMaterial_Table.csv
-│       ├── Product_table.csv
-│       ├── Product_table_1.csv
+│       ├── Product_Table.csv
 │       ├── Production_Record_Table.csv
 │       ├── Production_Team_Member_Table.csv
-│       ├── raw_material_data.csv
+│       ├── Raw_Material_Table.csv
 │       └── Supplier_Table.csv
+│   ├── Create_Database_Cataschevastica.sql
+│   ├── Data_Population.sql
+│   ├── Command_Statements_Cataschevastica.sql
+│   ├── Queries_Cataschevastica.sql
 │
-├── Documentation
-│   ├── erd_diagram.png
-│   └── relational_schema.png
+│   
 │
-├── Stage_2
-│   ├── ETL_Scripts
-│   ├── Data_Lake_Scripts
-│   └── PowerBI_Reports
+├── Data_Warehouse
+│   ├── Data
+│       ├── dw_dim_customers.csv
+│       ├── dw_dim_date.csv
+│       ├── dw_dim_delivery.csv
+│       ├── dw_dim_product.csv
+│       ├── dw_dim_supplier.csv
+│       ├── dw_fact_production.csv
+│       ├── dw_fact_sales.csv
+│   ├── Databricks
+        ├── Import_from_Azure_Blob_Storage.ipynb
+        ├── Import_from_Azure_Blob_Storage.html
+    ├── PowerBI
+        ├── Cataschevastica_PowerBI.pbix
+│   ├── SQL_Scripts
+│       ├── Data_Lake_Scripts
+│       └── PowerBI_Reports
 │
 └── README.md
 ```
