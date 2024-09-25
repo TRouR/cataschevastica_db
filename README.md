@@ -78,9 +78,7 @@ The **Data Warehouse (DW)** was built to facilitate advanced data analysis, enab
     - `Fact_Tables_Incremental_Load.sql`: Implemention incremental loading for fact tables.
     - `Load_Data_Warehouse.sql`: Loading data into the DW from the staging area.
 
-## Setup Instructions
-
-### Prerequisites
+## Prerequisites
 
 - **MS SQL Server**
 - **Azure Blob Storage**
